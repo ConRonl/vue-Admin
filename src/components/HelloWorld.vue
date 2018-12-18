@@ -26,8 +26,8 @@ export default {
         page:1
       }).then((res) => {
         var data = res.data;
-        console.log(data.data)
-        console.log(1)
+        console.log(data.data);
+        console.log(1);
         
       }).catch((error) => {
         console.log(error)
