@@ -27,6 +27,7 @@ export default {
       }).then((res) => {
         var data = res.data;
         console.log(data.data)
+        console.log(1)
         
       }).catch((error) => {
         console.log(error)
